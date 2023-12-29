@@ -19,12 +19,15 @@
     text-shadow: 2px 2px 4px #222;
 }
 
+.meme {
+    padding: 0 20px;
+}
+
 .meme img {
     height: 420px;
     width: 100%;
     object-fit: fill;
-    margin: 10px 0;
-    padding: 0 20px;
+    margin: 10px 0 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -35,13 +38,15 @@
 }
 
 
-
+.btn {
+    padding-bottom: 15px;
+}
 
 
 .generate-meme-button {
     border: none;
-    padding: 15px 5px 30px;
-    margin: 10px 0 1px;
+    padding: 15px 5px;
+    margin: 10px 0;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.2s ease;
